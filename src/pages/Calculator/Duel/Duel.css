@@ -1,0 +1,39 @@
+.empty {
+    background-color: rgba(0, 0, 0, 0) !important; 
+}
+.hp-class1 {
+    font-size: 120px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.hp-class2 {
+    font-size: 120px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.hp-bar {
+    width:200%;
+}
+.reset-button {
+    position : absolute;
+    left : 832px;
+    top : 128px;
+}
+.back-button {
+    position : absolute;
+    left : 1088px;
+    top : 128px;
+}
+.wrapper2 {
+    display:flex;
+    justify-content:space-between;
+}
+.calc-section {
+    position:fixed;
+    bottom:100px;
+    display: grid;
+    grid-template-columns: repeat(5, 4fr);
+    justify-content: space-evenly;
+    width : 100%;
+}

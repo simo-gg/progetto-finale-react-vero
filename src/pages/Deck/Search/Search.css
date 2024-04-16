@@ -1,0 +1,62 @@
+.searchedCardsBox {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    top: 32px;
+    position: absolute;
+}
+.searchBox {
+    width:900px;
+    max-width: 900px;
+    min-width: 900px;
+    background-color: rgba(0,0,0,0.5);
+    color: rgb(255,255,255);
+    left:0px;
+}
+.sbutton {
+    display:inline;
+    color:white;
+    background-color: rgba(0,0,0,0.75);
+    outline-color: white;
+    outline-style:outset;
+    width:89px;
+}
+div.sticky {
+    position:fixed;
+    top:0px;
+}
+.big_card {
+    position: fixed;
+    top: 0;
+    left: 1030px;
+    right: 100%;
+    width: 36%;
+    text-align: center;
+    font-size: 18px;
+    color:white;
+    border-radius: 3%;
+}
+.setBg_button {
+    position: fixed;
+    top: 2px;
+    width: 150px;
+    height: 150px;
+    font-size: 24px;
+    left: 1740px;
+    color: white;
+    background-color: rgba(0,0,0,0.75);
+    outline-color: white;
+    outline-style: outset;
+}
+.wiki_button {
+    position: fixed;
+    top: 168px;
+    width: 150px;
+    height: 150px;
+    font-size: 24px;
+    left: 1740px;
+    color: white;
+    background-color: rgba(0,0,0,0.75);
+    outline-color: white;
+    outline-style: outset;
+}
